@@ -1,0 +1,45 @@
+{
+  "PORE": {
+    "Debug": "FALSE",
+    "Trunk": "zh-CN",
+    "Airta": "index",
+    "Param": ""
+  },
+  "RUNNING": {
+    "Status": "",
+    "Trunk": "",
+    "Airta": "",
+    "Param": ""
+  },
+  "PACKAGE": {
+    "Core": {
+      "PORE": {
+        "Route": {
+          "_Init": "core/scr/Route.pore.php",
+          "{name}": "path"
+        },
+        "Resource":{
+          "Language":"Language/core.language.json"
+        },
+        "Interfaces": {
+          "Library": "Library.interface.php",
+          "Trunk": "Trunk.interface.php",
+          "Airta": "Airta.interface.php"
+        },
+        "Library": {
+          "STR": "core/STR.core.php",
+          "Pock": "inpro/Pock.inpro.php"
+        },
+        "Airta": {
+          "_Init": "core/scr/Airta.pore.php",
+          "index": "index.php"
+        },
+        "Trunk": {
+          "_Init": "core/scr/Trunk.pore.php",
+          "Language": "Language.trunk.php",
+          "Duang": "Duang.trunk.php"
+        }
+      }
+    }
+  }
+}

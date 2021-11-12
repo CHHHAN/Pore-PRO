@@ -1,0 +1,19 @@
+{
+   "zh-CN": {
+      "Core": {
+         "PORE": {
+            "errorPackage": "错误的包名",
+            "errorInit": "指定的 _Init 文件不存在",
+            "errorRES": "指定的 RES 文件不存在",
+
+            "Airta":{
+               
+               "index":{
+                  "title":"Pock 非对称加密算法"
+               }
+
+            }
+         }
+      }
+   }
+}
